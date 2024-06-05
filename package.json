@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "sass": "^1.77.4"
+  },
+  "name": "cities-in-the-world",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piperiver97/cities-in-the-world.git"
+  },
+  "author": "felipe riveros",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/piperiver97/cities-in-the-world/issues"
+  },
+  "homepage": "https://github.com/piperiver97/cities-in-the-world#readme",
+  "description": ""
+}
