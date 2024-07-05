@@ -1,8 +1,10 @@
-.header{
+.container-fluid{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 body{
-    border-radius: 40%;
-    
+    background-color: rgb(255, 243, 218);
+}
+.footer{
+    background-color: white;
 }

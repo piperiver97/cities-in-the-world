@@ -4,40 +4,47 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous" />
-      <link rel="stylesheet" href="./styles.css">
-    <title>Cities in the world</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<link rel="stylesheet" href="./styles.css">
+
+    <title>Cities in the World</title>
   </head>
   <body>
      <div class="container">
       <header class="header">
-        <ul class="nav nav-pills">
-          <h1 id="title">Ciudades de Colombia</h1>
-          <li class="nav-item"><a href="#" class="nav-link " aria-current="page">Home</a></li>
-          <li class="nav-item2"><a href="#" class="nav-link " >Abaut</a></li>
-          <li class="nav-item3"><a href="#" class="nav-link " >Contact</a></li>
-        </ul>
+        <div class="container-fluid">
+          <h1>Cities in the world</h1>
+    
+          <nav class="ms-auto d-flex">
+            <ul class="nav nav-pills">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </header>
     </div>
-    </header>
     <main>
       <div class="container text-center">
         <div class="row align-items-start">
           <div class="col">
-            <img src="/public/assets/img/colombia.jpg" class="img-fluid" alt="tokyo">
+            <img src="/public/assets/img/colombia.jpg" class="img-fluid" alt="colombia">
           </div>
         </div>
 
         <div class="row align-items-start m-5 ">
-          <div class="col-lg-2 col-md-4 mb-4">
-            <div class="container text-center border border-3 p-3">
+          <div class="col-lg-2 col-md-4 mb-4" >
+            <div class="container text-center">
               <div class=" ranking row align-items-start">
                 <div class="col">
-                  <h4>Mejores Ciudades</h4>
+                  <h4>Best Cities</h4>
                 </div>
               </div>
               <div class=" ranking row align-items-start">
@@ -72,156 +79,125 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-10 col-md-8"><div class="container text-center px-4">
-            <div class="row align-items-start gy-5">
-              <div class="col-md-6 col-lg-4">
-                <div class="card" >
-                  <img src="/public/assets/img/bogota.jpg"  alt="..." style="height: 150px;">
-                  <div class="card-body">
-                    <h5 class="card-title">Bogota</h5>
-                    <p class="card-text">Capital de Colombia, ciudad mas grande de colombia y la 3ra de sudamerica .</p>
-                    <a href="#" class="btn btn-secondary mt-4">Visit</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 col-lg-4">
-                <div class="card">
-                  <img src="/public/assets/img/medellin.jpg" class="card-img-top embed-responsive-item" alt="..." style="height: 150px;">
-                  <div class="card-body">
-                    <h5 class="card-title">Medellin</h5>
-                    <p class="card-text">Medellín, innovadora y resiliente, destaca por su clima agradable, modernas infraestructuras, transporte avanzado, cultura vibrante y paisajes montañosos impresionantes.</p>
-                    <a href="#" class="btn btn-secondary mt-4">Visit</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 col-lg-4">
-                <div class="card">
-                  <img src="/public/assets/img/cartagena.jpeg" class="card-img-top" alt="..." style="height: 150px;">
-                  <div class="card-body">
-                    <h5 class="card-title">Cartagena</h5>
-                    <p class="card-text">
-                      Cartagena, histórica y vibrante, destaca por su arquitectura colonial, playas hermosas, clima cálido, cultura rica, murallas icónicas y festivales coloridos.</p>
-                    <a href="#" class="btn btn-secondary mt-4">Visit</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 col-lg-4">
-                <div class="card" >
-                  <img src="/public/assets/img/cali.jpeg" class="card-img-top" alt="..." style="height: 150px;">
-                  <div class="card-body">
-                    <h5 class="card-title">Cali</h5>
-                    <p class="card-text">
-                      Cali, alegre y tropical, destaca por su salsa vibrante, clima cálido, cultura diversa, paisajes verdes, gastronomía deliciosa y vida nocturna.</p>
-                    <a href="#" class="btn btn-secondary mt-4">Visit</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 col-lg-4">
-                <div class="card">
-                  <img src="/public/assets/img/barranquilla.jpg" class="card-img-top" alt="..." style="height: 150px;">
-                  <div class="card-body">
-                    <h5 class="card-title">Barranquilla</h5>
-                    <p class="card-text">Barranquilla, festiva y acogedora, destaca por su famoso carnaval, clima cálido, puerto estratégico, cultura caribeña, y música alegre.</p>
-                    <a href="#" class="btn btn-secondary mt-4">Visit</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 col-lg-4">
-                <div class="card">
-                  <img src="/public/assets/img/pasto.jpg" class="card-img-top" alt="..." style="height: 150px;">
-                  <div class="card-body">
-                    <h5 class="card-title">Pasto</h5>
-                    <p class="card-text">Pasto, cultural y fría, destaca por su carnaval de negros y blancos, volcanes cercanos, arquitectura colonial, y tradiciones andinas.</p>
-                    <a href="#" class="btn btn-secondary mt-4">Visit</a>
-                  </div>
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" style="width: 990px;">
+            <div class="col">
+              <div class="card shadow-sm"> 
+                <img src="/public/assets/img/bogota.jpg" class="card-img-top" alt="Bogota">
+                <div class="card-body">
+                  <h5 class="card-title">BOGOTA</h5>
+                  <p class="card-text">SCapital of Colombia, the largest city in Colombia and the 3rd in South America.</p>
+                  <a href="#" class="btn btn-primary">ir a Bogota</a>
                 </div>
               </div>
             </div>
-          </div></div>
-        </div>
-
-        <div class="row align-items-start">
-          <div class="col border border-3 p-3 bg-secondary text-white bg-opacity-50">
-            <div class="container text-center">
-              <div class="row align-items-start">
-                <div class="col m-2">
-                  <h4>Sitios turisticos</h4>
+            <div class="col-md-4 mb-4">
+              <div class="card h-100">
+                <img src="/public/assets/img/medellin.jpg" class="card-img-top" alt="medellin">
+                <div class="card-body">
+                  <h5 class="card-title">MEDELLIN</h5>
+                  <p class="card-text">Medellín, innovative and resilient, stands out for its pleasant climate, modern infrastructure, advanced transportation, vibrant culture, and impressive mountain landscapes.</p>
+                  <a href="#" class="btn btn-primary">Ir a Medellin</a>
                 </div>
               </div>
-              <div class="row align-items-start gy-4">
-                <div class="col-sm-6 col-md-4 col-lg-3"> 
-                  <div class="container text-center">
-                    <div class="resturant-icon row align-items-start">
-                      <div class="col">
-                        <img src="/public/assets/img/guatape.jpg" class="img-thumbnail rounded-circle" alt="..." style="height: 150px; width: 150px;" >
-                      </div>
-                    </div>
-                    <div class="resturant-text row align-items-start">
-                      <div class="col">
-                        Guatape
-                      </div>
-                    </div>
-                  </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card h-100">
+                <img src="/public/assets/img/cartagena.jpeg" class="card-img-top" alt="cartagena">
+                <div class="card-body">
+                  <h5 class="card-title">CARTAGENA</h5>
+                  <p class="card-text">Cartagena, historic and vibrant, stands out for its colonial architecture, beautiful beaches, warm climate, rich culture, iconic walls, and colorful festivals.</p>
+                  <a href="#" class="btn btn-primary">Ir Cartagena</a>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-3"> 
-                  <div class="container text-center">
-                    <div class="resturant-icon row align-items-start">
-                      <div class="col">
-                        <img src="/public/assets/img/SanAndres.jpg" class="img-thumbnail rounded-circle" alt="..." style="height: 150px; width: 150px;" >
-                      </div>
-                    </div>
-                    <div class="resturant-text row align-items-start">
-                      <div class="col">
-                        Isla de San Andres
-                      </div>
-                    </div>
-                  </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card h-100">
+                <img src="/public/assets/img/cali.jpeg" class="card-img-top" alt="CALI">
+                <div class="card-body">
+                  <h5 class="card-title">CALI</h5>
+                  <p class="card-text"> Cali, cheerful and tropical, stands out for its vibrant salsa, warm climate, diverse culture, green landscapes, delicious cuisine, and nightlife.</p>
+        
+                  <a href="#" class="btn btn-primary">Ir Cali</a>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-3"> 
-                  <div class="container text-center">
-                    <div class="resturant-icon row align-items-start">
-                      <div class="col">
-                        <img src="/public/assets/img/RioColores.jpg" class="img-thumbnail rounded-circle" alt="..." style="height: 150px; width: 150px;">
-
-                      </div>
-                    </div>
-                    <div class="resturant-text row align-items-start">
-                      <div class="col">
-                        Rio De Colores
-                      </div>
-                    </div>
-                  </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card h-100">
+                <img src="/public/assets/img/barranquilla.jpg" class="card-img-top" alt="Shanghai">
+                <div class="card-body">
+                  <h5 class="card-title">BARRANQUILLA</h5>
+                  <p class="card-text">Barranquilla, festive and welcoming, stands out for its famous carnival, warm climate, strategic port, Caribbean culture, and cheerful music.</p>
+                  <a href="#" class="btn btn-primary">Ir a Barranquilla</a>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-3"> 
-                  <div class="container text-center">
-                    <div class="resturant-icon row align-items-start">
-                      <div class="col">
-                        <img src="/public/assets/img/parquetayrona.jpg" class="img-thumbnail rounded-circle" alt="..." style="height: 150px; width: 150px;">
-
-                      </div>
-                    </div>
-                    <div class="resturant-text row align-items-start">
-                      <div class="col">
-                        Parque Tayrona
-                      </div>
-                    </div>
-                  </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card h-100">
+                <img src="/public/assets/img/pasto.jpg" class="card-img-top" alt="Singapur">
+                <div class="card-body">
+                  <h5 class="card-title">Pasto</h5>
+                  <p class="card-text">Pasto, cultural and cold, stands out for its Black and White Carnival, nearby volcanoes, colonial architecture, and Andean traditions.</p>
+                  <a href="#" class="btn btn-primary">Ir a PASTO</a>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </main>
-    <div class="container">
-      <footer class="py-3 my-4">
-        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Abaut</a></li>
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Contact</a></li>
-        </ul>
-        <p class="text-center text-body-secondary">© 2024 Company, Inc</p>
-      </footer>
+          <section>
+            <section>
+              <div class="container-restaurante">
+                <h2 id="restaurante-title" class="text-center mb-3.5" style="padding:20px;">Most Popular Restaurant:</h2>
+                <div class="row row-cols-1 row-cols-md-5 g-4 justify-content-center" >
+                  <div class="col">
+                    <div class="card rounded mb-4">
+                      <img src="/public/assets/img/cantina.jpg" class="card-img-top rounded-circle" alt="Mountain View">
+                      <div class="card-body">
+                        <h5 class="card-title">North of Bogota  (Bogotá):</h5>
+                        <p class="card-text">Cantina La 15</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card rounded mb-4">
+                      <img src="/public/assets/img/dirosa.jpg" class="card-img-top rounded-circle" alt="Forest Trail" >
+                      <div class="card-body">
+                        <h5 class="card-title">North of Bogotá (Bogota):</h5>
+                        <p class="card-text">Todo es DiRosa</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card rounded mb-4">
+                      <img src="/public/assets/img/cocinas del mundo.jpg" class="card-img-top rounded-circle" alt="Ocean View" style="height: 180px;">
+                      <div class="card-body">
+                        <h5 class="card-title">Medellin (Medellin):</h5>
+                        <p class="card-text"> Cocinas del Mundo.</p>
+                      </div>
+                    </div>
+                  </div>
+        
+                  <div class="col">
+                    <div class="card rounded mb-4">
+                      <img src="/public/assets/img/storia-d-amore-barranquilla.jpg" class="card-img-top rounded-circle" alt="City Lights">
+                      <div class="card-body">
+                        <h5 class="card-title">Barranquilla (Barranquilla):</h5>
+                        <p class="card-text"> Storia D'amore Barranquilla.</p>
+                      </div>
+                    </div>
+                  </div>   
+                  </div>
+              </div>
+            </section> 
+            <div class="footer">
+            <footer>
+              <div class="row mt-4">
+                <div class="col-md-6 d-flex align-items-center">
+                  <img style="margin-left: 30px;" src="/public/assets/img/airplane.png" alt="icons" height="50px">&copy; 2024 Travel Company, Inc</div>
+                <div class="col-md-6 d-flex justify-content-end align-items-center">
+                  <img src="/public/assets/img/iconss.png" alt="icons" height="60px">
+                </div>
+              </div>
+            </di>
+            </footer>
     </div>
    
     <script
